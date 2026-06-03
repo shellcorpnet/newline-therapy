@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B1F1E" />
+  <meta name="description" content="[PLACEHOLDER: One-sentence brand description for SEO — calm, editorial, mentions therapy + Oregon.]" />
+
+  <title>Newline Therapy — [PLACEHOLDER: Tagline]</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Newline Therapy" />
+  <meta property="og:description" content="[PLACEHOLDER: One-sentence brand description for OG card.]" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="[PLACEHOLDER: https://newlinetherapy.com]" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Newline Therapy" />
+  <meta name="twitter:description" content="[PLACEHOLDER: One-sentence brand description for Twitter card.]" />
+  <meta name="twitter:image" content="assets/og-image.png" />
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230F4C45'/><text x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='20' fill='%23E5C77B'>n</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=DM+Sans:wght@400;500&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#welcome">Skip to content</a>
+
+  <!-- =========================================================
+       HEADER / NAV
+       ========================================================= -->
+  <header class="site-header" id="site-header" data-state="transparent">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Newline Therapy — home">
+        <span class="brand-mark" aria-hidden="true">
+          <!-- Logomark: lowercase italic "n" with gold return-arrow break -->
+          <svg viewBox="0 0 44 28" xmlns="http://www.w3.org/2000/svg" focusable="false">
+            <text x="0" y="22" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="400" font-size="26" fill="currentColor">n</text>
+            <path d="M22 7 H38 V18 H28 M28 18 L31.5 14.5 M28 18 L31.5 21.5" fill="none" stroke="url(#brand-gold)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="brand-gold" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#C9A961"/>
+                <stop offset="100%" stop-color="#E5C77B"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="brand-word">Newline Therapy</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#specialties">Specialties</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn btn-quiet" href="#contact">Begin a conversation</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#specialties">Specialties</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="mobile-cta">Begin a conversation</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-warm" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-cool" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <span class="hero-folio" aria-hidden="true">
+        <span class="hero-folio-num">No. 01</span>
+        <span class="hero-folio-rule"></span>
+        <span class="hero-folio-label">Volume I</span>
+      </span>
+
+      <div class="container hero-inner">
+        <p class="eyebrow eyebrow-light eyebrow-leading reveal" data-delay="0">
+          <span class="eyebrow-tick" aria-hidden="true"></span>A new chapter, one line at a time
+        </p>
+
+        <h1 class="hero-title reveal" id="hero-title" data-delay="60">
+          <span class="hero-line">
+            Lorem ipsum dolor <em>sit amet</em><span class="return-mark return-mark-hero" aria-hidden="true">
+              <svg viewBox="0 0 26 18" focusable="false">
+                <path d="M3 3 H22 V12 H10 M10 12 L13.5 8.5 M10 12 L13.5 15.5" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </span>
+          <span class="hero-line">consectetur adipiscing elit.</span>
+        </h1>
+
+        <p class="hero-lede reveal" data-delay="120">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="hero-ctas reveal" data-delay="180">
+          <a class="btn btn-gold" href="#contact">Begin a conversation</a>
+          <a class="link-arrow" href="#approach">Read about my approach <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="hero-meta reveal" data-delay="240">
+          <span class="hero-rule" aria-hidden="true"></span>
+          <p>[PLACEHOLDER: CLINICIAN NAME], CSWA &middot; [PLACEHOLDER: CITY], Oregon</p>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true">
+          <span class="hero-scroll-line"></span>
+          <span class="hero-scroll-label"><em>continue</em></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         WELCOME
+         ========================================================= -->
+    <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+      <div class="container reading-column">
+        <div class="chapter reveal" aria-hidden="true">
+          <span class="chapter-rule"></span>
+          <span class="return-mark return-mark-chapter">
+            <svg viewBox="0 0 26 18" focusable="false">
+              <path d="M3 3 H22 V12 H10 M10 12 L13.5 8.5 M10 12 L13.5 15.5" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="chapter-rule"></span>
+        </div>
+
+        <p class="eyebrow reveal">Welcome</p>
+        <h2 class="display-quiet reveal" id="welcome-title">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
+        </h2>
+        <p class="lede has-drop reveal">
+          <span class="drop" aria-hidden="true">L</span><span class="visually-hidden">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         APPROACH
+         ========================================================= -->
+    <section class="approach paper-texture" id="approach" aria-labelledby="approach-title">
+      <div class="container approach-grid">
+        <div class="approach-intro">
+          <p class="eyebrow reveal">Approach</p>
+          <h2 class="reveal" id="approach-title">Lorem ipsum dolor sit amet consectetur.</h2>
+          <p class="reveal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <ol class="approach-list">
+          <li class="reveal">
+            <span class="approach-num" aria-hidden="true">i</span>
+            <div class="approach-body">
+              <h3>Lorem ipsum dolor</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="approach-num" aria-hidden="true">ii</span>
+            <div class="approach-body">
+              <h3>Consectetur adipiscing</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="approach-num" aria-hidden="true">iii</span>
+            <div class="approach-body">
+              <h3>Eiusmod tempor</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SPECIALTIES
+         Common social-work specialties to choose from later:
+         anxiety · depression · life transitions · grief & loss ·
+         trauma · identity · relationships · women's mental health ·
+         young adults
+         ========================================================= -->
+    <section class="specialties" id="specialties" aria-labelledby="specialties-title">
+      <div class="container">
+        <header class="section-head section-head-center">
+          <p class="eyebrow reveal">Specialties</p>
+          <h2 class="reveal" id="specialties-title">Lorem ipsum dolor sit amet</h2>
+        </header>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <div class="card-media" aria-hidden="true">
+              <img class="card-photo" src="assets/specialties-1.png" alt="" loading="lazy" decoding="async">
+              <span class="card-corner"></span>
+            </div>
+            <p class="card-edition" aria-hidden="true"><span>No. 01</span></p>
+            <h3>[Specialty One]</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+            <a class="link-arrow link-arrow-small" href="#specialties">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media" aria-hidden="true">
+              <img class="card-photo" src="assets/specialties-2.png" alt="" loading="lazy" decoding="async">
+              <span class="card-corner"></span>
+            </div>
+            <p class="card-edition" aria-hidden="true"><span>No. 02</span></p>
+            <h3>[Specialty Two]</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            <a class="link-arrow link-arrow-small" href="#specialties">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media" aria-hidden="true">
+              <img class="card-photo" src="assets/specialties-3.png" alt="" loading="lazy" decoding="async">
+              <span class="card-corner"></span>
+            </div>
+            <p class="card-edition" aria-hidden="true"><span>No. 03</span></p>
+            <h3>[Specialty Three]</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <a class="link-arrow link-arrow-small" href="#specialties">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media" aria-hidden="true">
+              <img class="card-photo" src="assets/specialties-4.png" alt="" loading="lazy" decoding="async">
+              <span class="card-corner"></span>
+            </div>
+            <p class="card-edition" aria-hidden="true"><span>No. 04</span></p>
+            <h3>[Specialty Four]</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+            <a class="link-arrow link-arrow-small" href="#specialties">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         MEET [CLINICIAN]
+         ========================================================= -->
+    <section class="about paper-texture" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="chapter chapter-left reveal" aria-hidden="true">
+          <span class="return-mark return-mark-chapter">
+            <svg viewBox="0 0 26 18" focusable="false">
+              <path d="M3 3 H22 V12 H10 M10 12 L13.5 8.5 M10 12 L13.5 15.5" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="chapter-rule"></span>
+        </div>
+      </div>
+      <div class="container about-grid">
+        <figure class="portrait reveal" aria-hidden="true">
+          <div class="portrait-frame">
+            <span class="portrait-corner portrait-corner-tl"></span>
+            <span class="portrait-corner portrait-corner-br"></span>
+            <span class="portrait-tag">[PHOTO: warm professional portrait, natural light, eye contact]</span>
+          </div>
+        </figure>
+
+        <div class="about-body">
+          <p class="eyebrow reveal">Meet your therapist</p>
+          <h2 class="reveal" id="about-title">Hi, I'm <span class="about-name">[CLINICIAN NAME]</span>.</h2>
+          <p class="reveal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p class="reveal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — graduated with a 4.0 from [INSTITUTION] — quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+          <blockquote class="pull-quote reveal">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         WHAT TO EXPECT
+         ========================================================= -->
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-head section-head-center">
+          <p class="eyebrow reveal">The process</p>
+          <h2 class="reveal" id="process-title">Lorem ipsum dolor sit amet</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <div class="step-marker" aria-hidden="true">
+              <span class="step-num">i</span>
+              <span class="step-dot"></span>
+            </div>
+            <h3>[Reach out]</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step-marker" aria-hidden="true">
+              <span class="step-num">ii</span>
+              <span class="step-dot"></span>
+            </div>
+            <h3>[Meet]</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step-marker" aria-hidden="true">
+              <span class="step-num">iii</span>
+              <span class="step-dot"></span>
+            </div>
+            <h3>[Begin]</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         HOW WE WORK — trust hinge
+         ========================================================= -->
+    <section class="practice" id="practice" aria-labelledby="practice-title">
+      <div class="container practice-grid">
+        <div class="practice-intro">
+          <p class="eyebrow reveal">How we work</p>
+          <h2 class="reveal" id="practice-title">Lorem ipsum dolor sit amet consectetur.</h2>
+          <p class="reveal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+
+          <aside class="callout reveal">
+            <p>
+              I'm a CSWA (Clinical Social Work Associate) practicing under the clinical supervision of [SUPERVISOR NAME, LCSW]. That means a senior, fully-licensed clinician oversees my work, consults on care, and shares clinical responsibility &mdash; and it means you get attentive, current, deeply-supervised therapy. Insurance is billed through [HOST GROUP NAME]; scheduling and intake run through their team.
+            </p>
+          </aside>
+        </div>
+
+        <ul class="facts">
+          <li class="fact reveal">
+            <span class="fact-icon" aria-hidden="true">
+              <!-- Format: a horizontal line that arcs and drops to a new line — newline-as-format -->
+              <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <path d="M3 8 H20 a3 3 0 0 1 3 3 v0 a3 3 0 0 1 -3 3 H10"/>
+                <path d="M13 11 L10 14 L13 17"/>
+                <circle cx="3" cy="8" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+            </span>
+            <div>
+              <p class="fact-label">Format</p>
+              <p class="fact-value">[Telehealth across Oregon &middot; In-person at [LOCATION]]</p>
+            </div>
+          </li>
+          <li class="fact reveal">
+            <span class="fact-icon" aria-hidden="true">
+              <!-- Insurance: a folded page with a single rule — document/colophon mark -->
+              <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <path d="M6 4 H17 L22 9 V24 H6 Z"/>
+                <path d="M17 4 V9 H22"/>
+                <path d="M9 15 H17"/>
+                <path d="M9 19 H14"/>
+              </svg>
+            </span>
+            <div>
+              <p class="fact-label">Insurance</p>
+              <p class="fact-value">[Billed through [HOST GROUP NAME] &middot; <a href="#investment">See accepted plans</a>]</p>
+            </div>
+          </li>
+          <li class="fact reveal">
+            <span class="fact-icon" aria-hidden="true">
+              <!-- Supervision: two stacked rules connected by a vertical mark — mentor/mentee structure -->
+              <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                <path d="M5 8 H22"/>
+                <path d="M5 20 H22"/>
+                <path d="M9 8 V20"/>
+                <circle cx="9" cy="8" r="1.5" fill="currentColor" stroke="none"/>
+                <circle cx="9" cy="20" r="1.5" fill="currentColor" stroke="none"/>
+              </svg>
+            </span>
+            <div>
+              <p class="fact-label">Supervision</p>
+              <p class="fact-value">[Under [SUPERVISOR NAME, LCSW]]</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CREDENTIALS & TRAINING
+         TODO: Confirm with client before launch:
+         exact credential name + license number, supervisor's full
+         name and credentials (with their permission to be named on
+         the site), host group affiliation, state(s) of practice,
+         any modality certifications.
+         ========================================================= -->
+    <section class="credentials" id="credentials" aria-labelledby="credentials-title">
+      <div class="container credentials-grid">
+        <div class="credentials-head">
+          <p class="eyebrow reveal">Credentials</p>
+          <h2 class="reveal" id="credentials-title">Credentials &amp; training</h2>
+        </div>
+
+        <div class="credentials-body">
+          <ul class="credentials-list reveal">
+            <li>CSWA &mdash; Oregon Board of Licensed Social Workers, license #[PLACEHOLDER]</li>
+            <li>MSW &mdash; [INSTITUTION], [YEAR] &middot; 4.0 GPA</li>
+            <li>Practicing under the clinical supervision of [SUPERVISOR FULL NAME, LCSW]</li>
+            <li>Affiliated with [HOST GROUP NAME] &mdash; independent practice, shared administrative and billing infrastructure</li>
+            <li>[YEARS] in social work practice prior to private practice</li>
+            <li>[ADDITIONAL TRAINING / CERTIFICATIONS / MODALITY SPECIALIZATIONS]</li>
+          </ul>
+
+          <p class="credentials-note reveal">
+            Newline Therapy is an independent practice. As a CSWA (Clinical Social Work Associate), I provide therapy under the clinical supervision of [SUPERVISOR NAME, LCSW], a fully licensed clinical social worker with [YEARS] of experience. Supervision means a senior clinician reviews my caseload, consults on treatment, and shares clinical responsibility &mdash; you get rigorously supported care, and I continue building toward my own independent license.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         INVESTMENT
+         ========================================================= -->
+    <section class="investment paper-texture" id="investment" aria-labelledby="investment-title">
+      <div class="container reading-column investment-inner">
+        <p class="eyebrow reveal">Investment</p>
+        <h2 class="reveal" id="investment-title">Lorem ipsum dolor sit.</h2>
+        <p class="lede reveal">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, quis nostrud exercitation ullamco laboris.
+        </p>
+
+        <ul class="pills reveal" aria-label="Payment options">
+          <li class="pill">[Insurance accepted via host group]</li>
+          <li class="pill">[Self-pay rate: $PLACEHOLDER]</li>
+          <li class="pill">[Sliding scale on request]</li>
+        </ul>
+
+        <p class="fineprint reveal">
+          [PLACEHOLDER: Insurance is billed through [HOST GROUP NAME] under my supervisor's credentials. A list of accepted plans lives at <a href="#">HOST_GROUP_LINK</a>. If you don't see your plan, reach out &mdash; we'll figure it out together.]
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         QUESTIONS (FAQ)
+         ========================================================= -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-head section-head-center">
+          <p class="eyebrow reveal">Questions</p>
+          <h2 class="reveal" id="faq-title">Lorem ipsum dolor sit amet</h2>
+        </header>
+
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">[How do I know if therapy is right for me?]</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-a">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">[What can I expect from a first session?]</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-a">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">[How long does therapy usually last?]</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-a">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">[Do you offer virtual sessions?]</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-a">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">[What is your cancellation policy?]</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-a">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">[How do I get started?]</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-a">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         BEGIN (CONTACT)
+         ========================================================= -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container reading-column">
+        <div class="chapter reveal" aria-hidden="true">
+          <span class="chapter-rule"></span>
+          <span class="return-mark return-mark-chapter">
+            <svg viewBox="0 0 26 18" focusable="false">
+              <path d="M3 3 H22 V12 H10 M10 12 L13.5 8.5 M10 12 L13.5 15.5" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="chapter-rule"></span>
+        </div>
+
+        <p class="eyebrow reveal">Begin</p>
+        <h2 class="contact-headline reveal" id="contact-title">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+        </h2>
+
+        <ul class="contact-grid reveal">
+          <li>
+            <p class="eyebrow eyebrow-tiny">Email</p>
+            <a class="contact-link" href="mailto:hello@newlinetherapy.com">hello@newlinetherapy.com</a>
+          </li>
+          <li>
+            <p class="eyebrow eyebrow-tiny">Phone</p>
+            <a class="contact-link" href="tel:+15555555555">(555) 555-5555</a>
+          </li>
+          <li>
+            <p class="eyebrow eyebrow-tiny">Hours</p>
+            <p class="contact-static">By appointment &middot; Mon&ndash;Thu</p>
+          </li>
+        </ul>
+
+        <div class="contact-ctas reveal">
+          <a class="btn btn-primary" href="#" data-placeholder="HOST_GROUP_INTAKE_URL">Book through [HOST GROUP NAME]</a>
+          <a class="btn btn-outline" href="mailto:hello@newlinetherapy.com">Send a note</a>
+        </div>
+
+        <p class="contact-note reveal">
+          [PLACEHOLDER: Practicing in Oregon. Telehealth available throughout Oregon. In-person sessions at [LOCATION or "by arrangement"].]
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer" aria-labelledby="footer-title">
+    <h2 id="footer-title" class="visually-hidden">Footer</h2>
+
+    <div class="container footer-cols">
+      <div class="footer-brand">
+        <span class="footer-mark" aria-hidden="true">
+          <svg viewBox="0 0 60 36" xmlns="http://www.w3.org/2000/svg" focusable="false">
+            <text x="0" y="28" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="400" font-size="32" fill="url(#foot-gold)">n</text>
+            <path d="M30 9 H52 V24 H38 M38 24 L42 20 M38 24 L42 28" fill="none" stroke="url(#foot-gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="foot-gold" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#C9A961"/>
+                <stop offset="100%" stop-color="#E5C77B"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <p class="footer-tagline">[PLACEHOLDER: Short tagline]</p>
+        <p class="footer-copy">&copy; <span id="year">2026</span> Newline Therapy. All rights reserved.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <p class="eyebrow eyebrow-light eyebrow-tiny">Navigate</p>
+        <ul>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#specialties">Specialties</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#practice">How we work</a></li>
+          <li><a href="#credentials">Credentials</a></li>
+          <li><a href="#investment">Investment</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-crisis">
+        <p class="eyebrow eyebrow-light eyebrow-tiny">Crisis resources</p>
+        <p>If you are in crisis, this site is not the right place for help.</p>
+        <ul>
+          <li>Call or text <strong>988</strong> &mdash; Suicide &amp; Crisis Lifeline (US)</li>
+          <li>Text <strong>HOME</strong> to <strong>741741</strong> &mdash; Crisis Text Line</li>
+          <li>In an emergency, call <strong>911</strong> or go to your nearest ER.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-disclosure">
+      <p>
+        Newline Therapy is an independent provider business operating under the clinical supervision of [SUPERVISOR FULL NAME, LCSW]. Services are rendered by [CLINICIAN NAME], CSWA, in accordance with her individual registration with the Oregon Board of Licensed Social Workers, her supervisor's oversight, and the laws of the State of Oregon. Administrative and billing services are provided in collaboration with [HOST GROUP NAME]. Website content has been written and approved by [CLINICIAN NAME].
+      </p>
+    </div>
+
+    <div class="container footer-bottom">
+      <ul class="footer-legal">
+        <!-- TODO: Privacy Policy page must exist before launch -->
+        <li><a href="#">Privacy</a></li>
+        <!-- TODO: Accessibility Statement must exist before launch -->
+        <li><a href="#">Accessibility</a></li>
+        <!-- TODO: Good Faith Estimate is federally required for self-pay clients (No Surprises Act) -->
+        <li><a href="#">Good Faith Estimate</a></li>
+        <li><a href="#">No Surprises Act</a></li>
+      </ul>
+
+      <p class="footer-colophon" aria-hidden="true">
+        <span class="return-mark return-mark-footer">
+          <svg viewBox="0 0 26 18" focusable="false">
+            <path d="M3 3 H22 V12 H10 M10 12 L13.5 8.5 M10 12 L13.5 15.5" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <em>Volume I &middot; Edition no. 001 &middot; <span id="roman-year">MMXXVI</span></em>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

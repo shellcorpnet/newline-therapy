@@ -805,6 +805,23 @@ body[data-menu-open="true"] .site-header {
 .card:hover h3 { color: var(--teal-deep); }
 .card p { color: var(--ink-soft); }
 
+.specialties-note {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  text-align: center;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.specialties-note a {
+  color: var(--teal-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
+}
+
 /* ---------- About / Meet ------------------------------------- */
 .about { background: var(--paper-warm); }
 .about-grid {
@@ -1240,8 +1257,24 @@ body[data-menu-open="true"] .site-header {
 .footer-crisis ul { color: rgba(255,255,255,0.7); font-size: 0.875rem; line-height: 1.55; }
 .footer-crisis strong { color: var(--gold-light); font-weight: 500; }
 
+.footer-mission {
+  padding-block: 2rem 1.75rem;
+  text-align: center;
+}
+.footer-mission p {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.75);
+  max-width: 64ch;
+  margin: 0 auto;
+}
+
 .footer-disclosure {
   padding-block: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .footer-disclosure p {

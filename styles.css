@@ -477,6 +477,18 @@ body[data-menu-open="true"] .site-header {
   overflow: hidden;
   isolation: isolate;
 }
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  background-image: url("assets/hero-mthood.jpg");
+  background-size: cover;
+  background-position: 75% 50%;
+  background-repeat: no-repeat;
+  opacity: 0.20;
+  mix-blend-mode: luminosity;
+  pointer-events: none;
+  z-index: 0;
+}
 .hero-grain {
   position: absolute;
   inset: 0;
@@ -1326,6 +1338,7 @@ body[data-menu-open="true"] .site-header {
   .approach-list li { grid-template-columns: auto 1fr; column-gap: 1.25rem; }
   .approach-num { font-size: 2.25rem; padding-top: 0.1em; text-align: left; }
 
+  .hero-photo { display: none; }
   .hero-glow-warm { width: 360px; height: 360px; }
   .hero-glow-cool { width: 420px; height: 420px; }
   .hero-line:nth-child(2) { padding-left: 1.5rem; }
